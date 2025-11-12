@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Мой проект</title>
-  </head>
-  <body>
-    <h1>Привет! Вот примеры моих проектов</h1>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Мое портфолио</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Ксения</h1>
+        <p>Аналитик</p>
+    </header>
 
-    <ul>
-        <li><a href="/User research.ipynb">Файл 1</a></li>
-    </ul>
+    <section id="projects">
+        <h2>Мои проекты</h2>
+
+        <div class="project">
+            <h3>Название проекта</h3>
+            <p>Описание</p>
+            <a href="#">https://ksenhub.github.io/projects/city_dict.ipynb</a>
+        </div>
+    </section>
 </body>
-</html>
-  </body>
 </html>
